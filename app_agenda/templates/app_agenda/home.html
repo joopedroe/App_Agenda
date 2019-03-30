@@ -1,0 +1,9 @@
+<h1>Agenda</h1>
+{% for agenda in object_list %}
+	<div>
+    {% if agenda.publico %}
+        <h2>{{agenda}}</h2>
+        {% endif %}
+		<br>
+	</div>
+{% endfor %}
